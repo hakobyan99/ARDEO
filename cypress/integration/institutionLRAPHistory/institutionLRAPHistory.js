@@ -88,7 +88,6 @@ Then ('I go to "History" tab and delete institution', () => {
 
 
 
-
 When('I fill second institute data in "Institution Student Type" fields', () => {
     Institution.expect().modalToBeVisible()
     InstitutionLRAPHistory.fillApShortNameField(institutionApShortName)

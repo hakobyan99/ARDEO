@@ -35,6 +35,3 @@ Feature: LRAP history
     And I go to "Award process setup"
     When I check award process setup information for second institution
     Then I go to "History" tab and delete institution
-
-
-

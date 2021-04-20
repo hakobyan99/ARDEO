@@ -60,7 +60,6 @@ class InstitutionLRAPHistory {
         return cy.get('[class="col-md-12"] [class*="form-control ng"]')
     }
 
-
     static clickOnHistoryCreationButton() {
         cy.get('[class*="portlet-t"] [data-toggle="modal"]').eq(2).click()
     }

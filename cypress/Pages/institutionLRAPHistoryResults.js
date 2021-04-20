@@ -34,18 +34,6 @@ export const Institution = class InstitutionName {
                     .should('contain.text', institutionSortName + ' - ' + studentType)
             },
 
-            toHaveNoActivationButton: () => {
-                InstitutionLRAPHistory.awardProcessSetupButtons()
-                    .eq(0).should('not.exist')
-
-            },
-
-            toHaveActivationButton: () => {
-                InstitutionLRAPHistory.awardProcessSetupButtons()
-                    .eq(0)
-                    .should('contain.text', "Activate")
-            },
-
             toHaveEditButton: () => {
                 InstitutionLRAPHistory.awardProcessSetupButtons()
                     .eq(1)
