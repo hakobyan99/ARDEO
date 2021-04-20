@@ -1,0 +1,14 @@
+{
+  "testFiles": "**/*.feature",
+  "baseUrl": "https://lrap-operations-dev.azurewebsites.net/account/login",
+  "defaultCommandTimeout": 40000,
+  "projectId": "285q13",
+  "env":{
+    "username": "davit.kartashyan",
+    "password": "GpH^nf9s5L&m",
+    "institutionApShortName": "GdrTestCase",
+    "institutionStudentTypeDescription": "Testing",
+    "cohort": "2019 - 2020",
+    "secondCohort": "2020 - 2021"
+  }
+}

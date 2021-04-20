@@ -1,0 +1,26 @@
+{
+  "name": "cypress_cucumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:healthcheck": "env-cmd -f DEV.env npx cypress run --record --spec 'cypress/integration/login.feature' --tag 'health'",
+    "cy:regular": "env-cmd -f DEV.env npx cypress run --record --spec 'cypress/integration/navigation_menu.feature' --tag 'regular'",
+    "cy:verify": "npx cypress verify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "env-cmd": "^10.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^6.6.0",
+    "cypress-file-upload": "^5.0.6"
+  }
+}
