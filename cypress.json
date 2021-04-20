@@ -2,7 +2,7 @@
   "testFiles": "**/*.feature",
   "baseUrl": "https://lrap-operations-dev.azurewebsites.net/account/login",
   "defaultCommandTimeout": 40000,
-  "projectId": "285q13",
+  "projectId": "j7f36p",
   "env":{
     "username": "davit.kartashyan",
     "password": "GpH^nf9s5L&m",
